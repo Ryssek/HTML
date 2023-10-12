@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Horizontal List | Film-Making Terms</title>
+    <style type="text/css">
+      * {
+        font-family: arial;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      section {
+        background: #f4f4f4;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .title {
+        color: red;
+        font-size: 3rem;
+        text-transform: uppercase;
+      }
+
+      #hr-list li {
+        display: inline;
+        margin: 0 1rem;
+      }
+
+      #horizontal-list {
+        margin: auto;
+        text-align: center;
+      }
+
+      #horizontal-list p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: Arial;
+      }
+
+      /* link container */
+      #link-container {
+        text-align: center;
+      }
+
+      #link-container a {
+        display: block;
+      }
+
+      #link-container div {
+        display: flex;
+        margin: auto;
+        width: 90vw;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="horizontal-list">
+      <div>
+        <p>
+          HTML CAN BE STYLED IN MANY WAYS WITH CSS. ONE POPULAR WAY, IS TO STYLE
+          A LIST TO BE DISPLAYED HORIZONTALLY
+        </p>
+        <h1 class="title">PROGRAMMING LANGUAGES</h1>
+        <ul id="hr-list">
+          <li>C</li>
+          <li>C++</li>
+          <li>C#</li>
+          <li>Ruby</li>
+          <li>Python</li>
+          <li>Assembly</li>
+          <li>Php</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="link-container">
+      <div>
+        <h1 class="title">Film-Making Terms</h1>
+        <div>
+          <a href="#">Arc shot</a>
+          <a href="#">Interlude</a>
+          <a href="#">Prologue</a>
+        </div>
+
+        <h2>Arc Shot</h2>
+        <p>
+          A shot in which the subjects is photographed by an encircling or
+          moving camera
+        </p>
+
+        <h2>Interlude</h2>
+        <p>
+          A brief, intervening fil scene or sequence, not specifically tied to
+          the plot, that appears within a film
+        </p>
+
+        <h2>Prologue</h2>
+        <p>
+          A speech, preface, introduction, ir brief scene preceding the the main
+          action or plot of a film, contrast to epilogue
+        </p>
+
+        <a href="#top">Top</a>
+      </div>
+    </section>
+  </body>
+</html>
